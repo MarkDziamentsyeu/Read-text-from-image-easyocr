@@ -31,6 +31,6 @@ def get_text(file_path):
         print('The file or directory does not exist')
         
 
-
-path = get_file_path()
-get_text(path)
+if __name__ == '__main__':
+    path = get_file_path()
+    get_text(path)
